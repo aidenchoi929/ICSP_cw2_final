@@ -88,7 +88,7 @@ def add_dollar_sign(value):
 
 
 def get_stock_info(ticker):
-    url = f"https://www.alphavantage.co/query?function=OVERVIEW&symbol={ticker}&apikey=I0UIP5S724XG4FDT"
+    url = f"https://www.alphavantage.co/query?function=OVERVIEW&symbol={ticker}&apikey=WEXHEXWWSE0EGK28"
     try:
         response = requests.get(url)
         print(response.status_code)
