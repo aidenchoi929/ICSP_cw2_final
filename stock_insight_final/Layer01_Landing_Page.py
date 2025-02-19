@@ -46,8 +46,8 @@ st.markdown(
 
 
 # FX Rate API Integration
-#fx_api_key = "0e906beefcc6370c11f59308"
-fx_api_key = "6ae2e2e0c850b48dd26e0c77"
+fx_api_key = "0e906beefcc6370c11f59308"
+#fx_api_key = "6ae2e2e0c850b48dd26e0c77"
 fx_api_url = f"https://v6.exchangerate-api.com/v6/{fx_api_key}/latest/SGD"
 
 try:
