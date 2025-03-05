@@ -46,8 +46,8 @@ st.markdown(
 
 
 # FX Rate API Integration
-fx_api_key = "0e906beefcc6370c11f59308"
-#fx_api_key = "6ae2e2e0c850b48dd26e0c77"
+#fx_api_key = "0e906beefcc6370c11f59308"
+fx_api_key = "6ae2e2e0c850b48dd26e0c77"
 fx_api_url = f"https://v6.exchangerate-api.com/v6/{fx_api_key}/latest/SGD"
 
 try:
@@ -183,7 +183,7 @@ with col2:
     )
 
 # Alpha Vantage API Key
-alpha_vantage_api_key = "I0UIP5S724XG4FDT"
+alpha_vantage_api_key = "4XS94QXIHDRX8NWE"
 
 
 # Function to fetch market data
